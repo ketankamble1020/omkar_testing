@@ -1,4 +1,4 @@
-ADD ubuntu:latest
+FROM ubuntu:latest
 
 
 ADD hello /var/www/html
