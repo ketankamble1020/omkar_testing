@@ -1,4 +1,4 @@
-ADD ubuntu
+FROM ubuntu
 
 
 ADD rmt /var/www/html
