@@ -1,7 +1,7 @@
 ADD ubuntu
 
 
-ADD new /var/www/html
+ADD New /var/www/html
 
 CMD apachectl -D FOREGROUND
 
