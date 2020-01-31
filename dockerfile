@@ -1,6 +1,6 @@
 FROM ubuntu
 
-MAINTAINER omkar
+
 
 ADD hello /var/www/html
 
