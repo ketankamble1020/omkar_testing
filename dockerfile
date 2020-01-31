@@ -2,11 +2,11 @@ FROM ubuntu
 
 ADD hello /var/www/html
 
-CMD apachectl -D FOREGROUND
+RUN apt-get update
+RUN apt-get install -y apache2 && apt-get clean
 
-RUN rm var/www/html
-
-
+EXPOSE 80
+CMD service apache2 start
 	
 
 	
