@@ -2,7 +2,7 @@ FROM ubuntu
 
 
 
-ADD hello.html /var/www/html
+ADD dev /var/www/html
 
 RUN apt-get update
 RUN apt-get install -y apache2 && apt-get clean
