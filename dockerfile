@@ -9,7 +9,7 @@ RUN apt-get install -y apache2 && apt-get clean
 
 
 CMD apachectl -D FOREGROUND
-RUN rm /var/www/html/index.html	
+
 
 	
 	
