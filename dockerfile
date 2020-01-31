@@ -1,4 +1,4 @@
-FROM ubuntunew1212
+FROM ubuntu
 
 ADD hello /var/www/html
 
